@@ -1,0 +1,102 @@
+body .xlta-terms-conditions-wrapper {
+    max-width: 800px !important;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-wrap .xlta-header-warning {
+    color: #000;
+    font-weight: 500;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-wrap .xlta-header-warning .xlta-must-word {
+    color: red;
+    font-weight: 600;
+}
+
+body .xlta-terms-conditions-wrapper {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body .xlta-terms-conditions-wrapper .xlta-terms-and-conditions {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    height: 300px;
+    overflow-y: scroll;
+
+}
+
+body .xlta-terms-conditions-wrapper .xlta-terms-and-conditions p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form input[type="text"] {
+    font-size: 18px;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form input[type="text"]:focus {
+    outline: 0;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form  input[type="text"],
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form .xlta-submit-button-container .xlta-accept-terms-button,
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form .xlta-submit-button-container .xlta-reject-terms-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form {
+    width: 50%;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form .xlta-submit-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form .xlta-submit-button-container .xlta-accept-terms-button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form .xlta-submit-button-container .xlta-reject-terms-button {
+    background-color: #ced4da;
+    color: #495057;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form .xlta-submit-button-container .xlta-reject-terms-button:hover {
+    background-color: #dee2e6;
+}
+
+
+body .xlta-terms-conditions-wrapper .xlta-accept-terms-form .xlta-submit-button-container .xlta-accept-terms-button:hover {
+    background-color: #005b82;
+}
+
+@media (max-width: 768px) {
+    body .xlta-terms-conditions-wrapper .xlta-accept-terms-form .xlta-submit-button-container {
+        justify-content: start;
+    }
+}

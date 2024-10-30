@@ -1,0 +1,10 @@
+parameters:
+	excludePaths:
+		- vendor/
+	level: 1
+	treatPhpDocTypesAsCertain: false
+	paths:
+		- .
+	ignoreErrors:
+		- '#Constant XLTA_PLUGIN_DIR not found#'
+		- '#Constant XLTA_PLUGIN_DIR_URL not found#'

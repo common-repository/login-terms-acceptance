@@ -1,0 +1,101 @@
+/* admin-style.css */
+.xlta-settings-wrapper .xlta-wrap {
+    padding: 0 20px 0 0;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+.xlta-settings-wrapper .xlta-wrap .xlta-inner-wrap{
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius:  0 0 8px 8px;
+}
+
+.xlta-settings-wrapper .xlta-wrap .xlta-header-wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.xlta-settings-wrapper .xlta-wrap h1 {
+    color: #3674AD;
+    font-weight: 500;
+}
+
+.xlta-settings-wrapper .xlta-wrap h2 {
+    display: inline-block;
+    color: #3674AD;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.xlta-settings-wrapper .xlta-wrap textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.xlta-settings-wrapper .xlta-wrap label {
+    display: block;
+    font-weight: bold;
+    /*color: #08121C;*/
+}
+
+.xlta-settings-wrapper .xlta-wrap input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.xlta-settings-wrapper .xlta-wrap .form-table th {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #23282d;
+}
+
+.xlta-settings-wrapper .xlta-wrap .form-table td {
+    padding: 10px 0;
+}
+
+.xlta-settings-wrapper .xlta-wrap .form-table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.xlta-settings-wrapper .xlta-wrap .form-table th,
+.xlta-settings-wrapper .xlta-wrap .form-table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.xlta-settings-wrapper .xlta-wrap .form-table tr:last-child th,
+.xlta-settings-wrapper .xlta-wrap .form-table tr:last-child td {
+    border-bottom: none;
+}
+
+.xlta-settings-wrapper .xlta-wrap .submit {
+    margin-top: 20px;
+}
+
+.xlta-settings-wrapper .xlta-wrap .submit input[type="submit"] {
+    background: #3674AD;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.xlta-settings-wrapper .xlta-wrap .submit input[type="submit"]:hover {
+    background: #005f8d;
+}
